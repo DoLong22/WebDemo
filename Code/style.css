@@ -1,0 +1,53 @@
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Images/home-image-forest.jpg);
+    height: 100vh;
+    background-position: auto;
+    background-size: cover;
+}
+.text{
+    color:white;
+    font-family: "Edwardian Script ITC";
+    font-size: 80px;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+ul{
+    float: right;
+    margin: 20px 50px;
+}
+ul li{
+    display: inline;
+}
+ul li a{
+    border: 3px solid white;
+    color:white;
+    font-size: 20px;
+    padding: 5px 20px;
+    text-decoration: none; /*bỏ gạch chân text gắn link */
+}
+ul li.active a{
+    background-color: white;
+    color:black;
+}
+ul li a:hover{
+    /* Định dạng khi di chuột qua đấy */
+    background-color: white;
+    color: black;
+}
+.button{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+}
+.btn{
+    padding: 5px 30px;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+a:hover{
+    background-color: white;
+    color:black;
+}
